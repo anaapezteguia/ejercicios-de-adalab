@@ -1,0 +1,12 @@
+table {
+    width: 75%%;
+    border-spacing: 20px;
+    text-align: center;
+}
+thead {
+    background-color: cornflowerblue;
+
+}
+tbody, tfoot {
+    background-color: cornsilk;
+}
