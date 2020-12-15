@@ -1,0 +1,18 @@
+.display {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: aquamarine;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+.none {
+  display: none;
+}
