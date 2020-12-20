@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.header {
+  background-color: red;
+  height: 30px;
+  text-align: center;
+}
+.main {
+  display: flex;
+}
+.aside1 {
+  background-color: yellow;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.article {
+  background-color: blue;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.aside2 {
+  background-color: pink;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.footer {
+  background-color: springgreen;
+  height: 30px;
+  text-align: center;
+}
