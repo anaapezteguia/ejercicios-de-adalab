@@ -1,0 +1,9 @@
+.btn {
+  padding: 20px;
+  color: white;
+  background-color: blue;
+}
+
+.desactivar {
+  background-color: gray;
+}
