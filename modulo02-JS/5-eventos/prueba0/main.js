@@ -19,3 +19,13 @@ button.addEventListener('click', function showAlert() {
 //3- ahora con arrow function
 const button = document.querySelector('.alert');
 button.addEventListener('click', () => console.log('alerta'));
+
+
+// 4- prueba de event.currentTarget
+const buttonElement = document.querySelector('.alert');
+
+function handleButtonClick(event) {
+  console.log(event.currentTarget);
+}
+
+buttonElement.addEventListener('click', handleButtonClick);
