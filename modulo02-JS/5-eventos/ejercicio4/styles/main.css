@@ -1,0 +1,11 @@
+* {
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+.bg-small {
+  background-color: lightpink;
+}
+.bg-big {
+  background-color: aquamarine;
+}
