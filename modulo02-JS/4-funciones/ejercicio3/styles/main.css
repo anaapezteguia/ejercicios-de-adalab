@@ -1,0 +1,19 @@
+.myDiv {
+  height: 200px;
+  width: 350px;
+  padding: 20px;
+}
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: 700;
+  color: blueviolet;
+}
+.text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: black;
+}
+.bold {
+  font-weight: 700;
+}
