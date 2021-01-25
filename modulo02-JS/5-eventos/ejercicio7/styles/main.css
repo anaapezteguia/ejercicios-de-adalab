@@ -1,0 +1,11 @@
+* {
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+.js-btn {
+  padding: 20px;
+}
+.bg-pink {
+  background-color: lightpink;
+}
