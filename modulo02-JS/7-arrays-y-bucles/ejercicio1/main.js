@@ -1,14 +1,14 @@
 'use strict';
-// const arr = ['Lo que el viento se llevó', 'Algo pasa con Mary', 'Sentido y sensibilidad'];
-// // añadimos una peli
-// arr [3] = 'Orgullo y Prejuicio';
-// console.log (arr);
-// // modificamos un elemento
-// arr[0] = 'Como agua para chocolate';
-// console.log (arr);
+const arr = ['Lo que el viento se llevó', 'Algo pasa con Mary', 'Sentido y sensibilidad'];
+// añadimos una peli
+arr [3] = 'Orgullo y Prejuicio';
+console.log (arr);
+// modificamos un elemento
+arr[0] = 'Como agua para chocolate';
+console.log (arr);
 
 
-
+// ahora lo mismo pero con una función
 function workWithMovies() {
     const movies = ['Lo que el viento se llevó', 'Algo pasa con Mary', 'Sentido y sensibilidad'];
     movies[3] = 'Orgullo y Prejuicio';
