@@ -18,8 +18,9 @@ console.log(`La media de mis números es ${myAverage}`);
 
 // // B
 // // añadimos un número al array y aumentamos el divisor
-numbers[5] = 8;
+numbers[5] = 9;
 // console.log(numbers);
+
 
 // // repetimos el bucle
 counter=0;
@@ -28,16 +29,16 @@ for (let i = 0; i < numbers.length; i++) {
     // console.log(numbers.length);
 }
 // // y la media
-// myAverage = counter/numbers.length;
+ myAverage = counter/numbers.length;
 console.log(`Ahora la media de mis números es ${myAverage}`);
 
 // C
 // convertimos la media en función
 const average = (myAverage) => {
     const numbers = [5, 3, 8, 33, 64]; 
-    numbers[5] = 8;
+    numbers[5] = 9;
     // console.log(numbers);
-    let counter =0;
+    let counter = 0;
     for (let i = 0; i < numbers.length; i++) {
         counter += numbers[i];
     }
