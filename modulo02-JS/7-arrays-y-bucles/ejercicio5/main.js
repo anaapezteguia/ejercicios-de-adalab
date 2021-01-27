@@ -1,35 +1,35 @@
 'use strict';
-// // mi array
-const numbers = [5, 3, 8, 33, 64]; 
+// mi array
+const numbers = [5, 3, 8, 33, 64]; //113
 
-// //mi variable acumulador
+//mi variable acumulador del sumatorio
 let counter =0;
 
-// // A
-// //mi bucle
+// A
+//mi bucle
 for (let i = 0; i < numbers.length; i++) {
     counter += numbers[i];
     // console.log(counter);
 }
 
-// // hallamos la media
-let myAverage = counter/numbers.length;
+// hallamos la media
+let myAverage = counter/numbers.length; //113/5
 console.log(`La media de mis números es ${myAverage}`);
 
-// // B
-// // añadimos un número al array y aumentamos el divisor
-numbers[5] = 9;
+// B
+// añadimos un número al array y aumentamos el divisor
+numbers[5] = 9; //122
 // console.log(numbers);
 
-
-// // repetimos el bucle
+// reseteamos el contador 
 counter=0;
+// repetimos el bucle
 for (let i = 0; i < numbers.length; i++) {
     counter += numbers[i];
     // console.log(numbers.length);
 }
-// // y la media
- myAverage = counter/numbers.length;
+// y la media
+ myAverage = counter/numbers.length;// 122/6
 console.log(`Ahora la media de mis números es ${myAverage}`);
 
 // C
