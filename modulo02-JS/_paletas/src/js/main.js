@@ -58,7 +58,7 @@ formElement.addEventListener('submit', handleForm);
 function createPalettes() {
   let htmlCode = '';
   for (const paletteItem of palettes) {
-    htmlCode += '<li class="palette">';
+    htmlCode += '<li class="palette js-palette">';
     htmlCode += `<h2 class="palette__title">${paletteItem.name}</h2>`;
     htmlCode += '<div class="palette__colors">';
     for (const item of paletteItem.colors) {
@@ -72,9 +72,10 @@ function createPalettes() {
 
 // ---------PINTAR FAVORITAS------------
 
-// const selectedPalette = document.querySelectorAll('.palette');
+// const selectedPalette = document.querySelectorAll('.js-palette');
 // for (const pickedPalette of selectedPalettes) {
 //   pickedPalette.addEventListener('click', selectedHandler);
+// console.log(pickedPalette);
 // }
 
 // function selectedHandler(ev) {
