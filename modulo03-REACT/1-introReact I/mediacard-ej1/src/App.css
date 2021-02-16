@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: #666;
+  font-family: "Fira Sans";
+}
+.article {
+  width: 40%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 35px;
+  margin-top: 50px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profilePic {
+  width: 80px;
+  border-radius: 50%;
+}
+.description {
+  margin-right: 80px;
+}
+.description h2,
+p {
+  margin: 10px 0;
+}
+.texto {
+  padding: 10px 0;
+  line-height: 20px;
+}
+.bottomContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lovers {
+  display: inline-flex;
+  align-items: center;
+  width: 20%;
+}
+.amount {
+  margin: 0;
+  padding: 0 5px;
+}
+.fa-heart {
+  color: crimson;
+}
