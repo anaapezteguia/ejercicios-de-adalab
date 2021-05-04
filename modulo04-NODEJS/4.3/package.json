@@ -1,0 +1,18 @@
+{
+  "name": "4.3",
+  "version": "1.0.0",
+  "description": "Module 4 lesson 3 exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Ana Apezteguía",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
