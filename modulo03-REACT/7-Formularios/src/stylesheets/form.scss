@@ -1,0 +1,32 @@
+.moviesForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: left;
+  margin: 0 auto;
+}
+label,
+input,
+textarea,
+select {
+  margin: 10px 0;
+}
+.radios,
+.checkboxes {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  width: 120px;
+}
+.previewCard {
+  margin: 20px auto;
+  padding: 50px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 50%;
+}

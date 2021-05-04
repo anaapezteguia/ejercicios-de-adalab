@@ -1,0 +1,10 @@
+.counter {
+  width: 100%;
+  height: 100vh;
+  background-color: peachpuff;
+  color: peru;
+  &__title {
+    color: orange;
+    font-size: 30px;
+  }
+}

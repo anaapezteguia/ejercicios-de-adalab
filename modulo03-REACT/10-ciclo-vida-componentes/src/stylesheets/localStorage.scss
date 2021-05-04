@@ -1,0 +1,10 @@
+.localStorage {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  color: gray;
+  &__title {
+    color: mediumorchid;
+    font-size: 30px;
+  }
+}
